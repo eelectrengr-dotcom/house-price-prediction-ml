@@ -35,7 +35,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load dataset
-data = pd.read_csv("data.csv")
+data = pd.read_csv("data/data.csv")
 
 X = data[['area', 'bedrooms', 'bathrooms']]
 y = data['price']
